@@ -16,21 +16,13 @@ Foi seguido o modelo do projeto que se encontra dentro do figma.
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"> 
 ```
 ## Cores
+```css
 
-corpo: `#`
-
-cabeçalho: `#`
-
-menu lateral: `#`
-
-Botão de Cadastro: `#`
-
-fonte: `#`
-
-links: `#`
-
-botão: `#`
-
+  --main-color: #8E2424;
+  --base-white: #FFFFFF;
+  --Gray-500: #667085;
+  --Gray-900: #101828;
+```
 
 ## Ícones
 
