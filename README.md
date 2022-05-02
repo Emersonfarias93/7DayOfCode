@@ -34,9 +34,11 @@ botão: `#`
 
 ## Ícones
 
-Estão dentro do arquivo da pasta img. Para usar, utilize os códigos abaixo para exibir o ícone na <head>.
+Estão dentro do arquivo da pasta img. Para usar, utilize os códigos abaixo para exibir o ícone.
 
+```html
  <link rel="icon" type="image/x-icon" href="img/favicone.png"> 
+```
 
 ## Tamanhos Projeto para Desktop.
 
