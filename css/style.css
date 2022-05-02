@@ -1,5 +1,6 @@
 :root {
     --text-color: #667085;
+    --main-color: #8E2424;
   }
   
   * {
@@ -41,4 +42,29 @@
   button#cadastro {
     background-color: #8E2424;
     color: #FFF;
+  }
+
+  /* Destaque sobre nós 'Cabeçalho' .*/
+
+.cabecalho_sobre {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .cabecalho_sobre span {
+    color: var(--main-color);
+  }
+  
+  .cabecalho_sobre h1 {
+    font-size: 2rem;
+  }
+  
+  .cabecalho_sobre p {
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
   }
