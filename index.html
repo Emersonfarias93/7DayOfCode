@@ -15,12 +15,13 @@
 	<body>
 		<header>
 		 <nav>
-			<img src="img/logo.svg"/>
+             <a href="index.html">
+			<img src="img/logo.svg"/></a>
 			<div class="nav_menu">
-			  <a href="/index.html">Home</a>
+			  <a href="index.html">Home</a>
 			  <a href="#">Produtos</a>
-			  <a href="#">Recursos</a>
-			  <a href="#">Sobre nós</a>
+			  <a href="#recursos">Recursos</a>
+			  <a href="#sobre">Sobre nós</a>
 			</div>
 			<div class="buttons" right>
 			  <button>Entrar</button>
@@ -30,12 +31,12 @@
 		</header>
         <main>
             <section class="cabecalho_sobre">
-                <span>Sobre nós</span>
+                <span id="sobre">Sobre nós</span>
                 <h1>Por que somos diferentes?</h1>
                 <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
             </section>
             <section class="metricas_container">
-                <div class="metricas_container-content">
+                <div class="metricas_container-content" id="recursos">
                     <span>400+</span>
                     <h1>Projetos concluídos</h1>
                     <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p>
@@ -54,6 +55,69 @@
                     <span>500+</span>
                     <h1>Reviews 5 estrelas</h1>
                     <p>Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+                </div>
+            </section>
+
+            <section class="vagas_container">
+                    <div class="vagas_talentos">
+                        <span>Vagas abertas!</span>
+                        <h1>Estamos procurando por talentos</h1>
+                        <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+                    </div>
+                    <div>
+                        <img src="img/Image.png" alt="">
+                    </div>
+            </section>
+
+            <section class="vagas_abertas">
+                <div class="vagas_abertas-deparamento">
+                    <div class="vagas_content">
+                        <h2 class="vagas_titulo">Design</h2>
+                       
+                        <ul class="vagas_cartoes">
+                            <li class="vagas_container_cartao--start">
+                                <h3 class="vagas_cartao_titulo">Product Designer</h3>
+                                <article class="vagas_cartao_conteudo">
+                                    <p class="vagas_horas_Periodo">Full-time</p>
+                                    <p class="vagas_salario"><em>Faixa salarial: R$7.000</em></p>
+                                </article>
+                            </li>
+                            <li class="vagas_container_cartao--start">
+                                <h3 class="vagas_cartao_titulo">UX Designer</h3>
+                                <article class="vagas_cartao_conteudo">
+                                    <p class="vagas_horas_Periodo">Full-time</p>
+                                    <p class="vagas_salario"><em>Faixa salarial: R$6.000</em></p>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="vagas_content">
+                        <h2 class="vagas_titulo">Desenvolvimento de Software</h2>
+                       
+                        <ul class="vagas_cartoes">
+                            <li class="vagas_container_cartao--start">
+                                <h3 class="vagas_cartao_titulo">Desenvolvedor(a) iOS</h3>
+                                <article class="vagas_cartao_conteudo">
+                                    <p class="vagas_horas_Periodo">Full-time</p>
+                                    <p class="vagas_salario"><em>Faixa salarial: R$8.000</em></p>
+                                </article>
+                            </li>
+                            <li class="vagas_container_cartao--start">
+                                <h3 class="vagas_cartao_titulo">Desenvolvedor(a) Front-end</h3>
+                                <article class="vagas_cartao_conteudo">
+                                    <p class="vagas_horas_Periodo">Full-time</p>
+                                    <p class="vagas_salario"><em>Faixa salarial: R$7.000</em></p>
+                                </article>
+                            </li>
+                            <li class="vagas_container_cartao--start">
+                                <h3 class="vagas_cartao_titulo">Desenvolvedor(a) Back-end</h3>
+                                <article class="vagas_cartao_conteudo">
+                                    <p class="vagas_horas_Periodo">Full-time</p>
+                                    <p class="vagas_salario"><em>Faixa salarial: R$8.000</em></p>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </main>
