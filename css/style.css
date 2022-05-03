@@ -4,6 +4,7 @@
     --Gray-500: #667085;
     --Gray-900: #101828;
     --fonte-base: 'Inter', sans-serif;
+    --Gray-200:#EAECF0;
   }
   
   * {
@@ -72,6 +73,7 @@
     line-height: 1.5rem;
   }
 
+/*Seção de Metricas*/
 
 .metricas_container {
   padding: 7rem 0;
@@ -120,4 +122,168 @@ font-size: 16px;
 line-height: 24px;
 color: var(--Gray-500
 );
+}
+
+/*seção de vagas*/
+.vagas_container {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 96px;
+  padding-top: 10px;
+}
+
+.vagas_talentos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vagas_talentos span {
+  font-family: var(--fonte-base);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.vagas_talentos h1 {
+  font-family: var(--fonte-base);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--Gray-900);
+}
+
+.vagas_talentos p {
+  font-family: var(--fonte-base)
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 12px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--Gray-500);
+}
+/*Seção de vagas abertas*/
+.vagas_abertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--base-white);
+  flex-grow: 0;
+}
+
+.vagas_abertas-deparamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  width: 1280px;
+  height: 358px;
+  left: calc(50% - 1280px/2);
+  top: 762px;
+}
+
+.vagas_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 768px;
+  height: 358px;
+  left: calc(50% - 768px/2);
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.vagas_titulo {
+  font-family: var(--fonte-base);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--Gray-900);
+}
+
+.vagas_cartoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 32px 0px;
+}
+
+.vagas_container_cartao--start {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 24px 24px 28px;  
+  background: var(--base-white);
+  border: 1px solid var(--Gray-200);
+  box-sizing: border-box;
+  border-radius: 16px;
+  position: static;
+  width: 768px;
+  height: 136px;
+  left: 0px;
+  top: 0px;
+  margin: 10px 0px;
+}
+
+.vagas_cartao_titulo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+  color: var(--Gray-900);
+  margin: 8px 0px;
+}
+
+.vagas_cartao_conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+.vagas_cartao_conteudo p {
+  font-family: var(--fonte-base);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--Gray-500);
+  text-align: left;
+}
+
+.vagas_horas_Periodo{
+  font-family: var(--fonte-base);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--Gray-500);
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.vagas_salario {
+  font-family:var(--fonte-base);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--Gray-500);
+  margin: 0px 10px;
 }
