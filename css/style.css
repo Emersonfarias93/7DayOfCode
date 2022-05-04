@@ -127,16 +127,14 @@ color: var(--Gray-500
 /*seção de vagas*/
 .vagas_container {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  align-items:center;
-  margin-top: 96px;
-  padding-top: 10px;
+  margin: 0 auto;
 }
 
-.vagas_talentos{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.vagas_talentos {
+  text-align: center;
+  margin-top: 3rem;
 }
 
 .vagas_talentos span {
@@ -145,7 +143,6 @@ color: var(--Gray-500
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  text-align: center;
 }
 .vagas_talentos h1 {
   font-family: var(--fonte-base);
@@ -153,7 +150,6 @@ color: var(--Gray-500
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
-  text-align: center;
   letter-spacing: -0.02em;
   color: var(--Gray-900);
 }
@@ -166,27 +162,20 @@ color: var(--Gray-500
   line-height: 30px;
   padding: 12px;
   margin-bottom: 40px;
-  text-align: center;
   color: var(--Gray-500);
 }
 /*Seção de vagas abertas*/
+
 .vagas_abertas {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background: var(--base-white);
-  flex-grow: 0;
 }
 
-.vagas_abertas-deparamento {
+.vagas_abertas_container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 32px;
-  width: 1280px;
-  height: 358px;
-  left: calc(50% - 1280px/2);
-  top: 762px;
 }
 
 .vagas_content {
@@ -194,15 +183,56 @@ color: var(--Gray-500
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
+  
   position: static;
   width: 768px;
   height: 358px;
   left: calc(50% - 768px/2);
   top: 0px;
+
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 30px 0px;
+  margin: 34px 0px;
+}
+
+.vagas_titulo_catao {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--Gray-900);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.vagas_container_cartao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items:stretch;
+  padding: 24px 24px 28px;
+}
+
+.vagas_container_cartao--start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 24px 24px;
+ 
+  background: var(--base-white);
+  border: 1px solid var(--Gray-200);
+  box-sizing: border-box;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 24px 0px;
 }
 
 .vagas_titulo {
@@ -212,79 +242,33 @@ color: var(--Gray-500
   font-size: 20px;
   line-height: 30px;
   color: var(--Gray-900);
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.vagas_cartoes {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  margin: 32px 0px;
-}
-
-.vagas_container_cartao--start {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding: 24px 24px 28px;  
-  background: var(--base-white);
-  border: 1px solid var(--Gray-200);
-  box-sizing: border-box;
-  border-radius: 16px;
-  position: static;
-  width: 768px;
-  height: 136px;
-  left: 0px;
-  top: 0px;
-  margin: 10px 0px;
-}
-
-.vagas_cartao_titulo {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: left;
-  color: var(--Gray-900);
-  margin: 8px 0px;
-}
-
-.vagas_cartao_conteudo {
+.observacao{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
-.vagas_cartao_conteudo p {
-  font-family: var(--fonte-base);
+.observacao span{
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color:var(--Gray-500);
-  text-align: left;
-}
-
-.vagas_horas_Periodo{
-  font-family: var(--fonte-base);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color:var(--Gray-500);
-  margin-left: 0;
-  margin-right: 10px;
-}
-
-.vagas_salario {
-  font-family:var(--fonte-base);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--Gray-500);
-  margin: 0px 10px;
+  color: #667085;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 10px 0;
 }
 /**/
